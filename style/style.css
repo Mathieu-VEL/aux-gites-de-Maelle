@@ -59,6 +59,18 @@ ul {
   /* ==========================RGPD========================== */
   /* ==========================end-RGPD========================== */
 }
+#container #nav .blocburger-logo {
+  display: flex;
+  justify-content: space-around;
+}
+#container #nav .blocburger-logo #burger {
+  display: flex;
+  justify-content: end;
+}
+#container #nav .blocburger-logo #logo .logo1 {
+  height: 100px;
+  width: auto;
+}
 
 /* ==========================end-container========================== */
 

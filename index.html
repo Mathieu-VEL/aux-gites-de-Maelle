@@ -16,6 +16,19 @@
     <main id="container">
       <!-- /* ==========================header========================== */ -->
       <header id="nav">
+        <div class="blocburger-logo">
+          <div id="burger">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <div id="logo">
+            <img
+              src="/images/logo1.png"
+              alt="logo Aux Gîtes de maelle"
+              class="logo1"
+            />
+          </div>
+        </div>
+
         <ul>
           <li><a href="/index.html">Accueil</a></li>
           <li><a href="/annonce.html">Annonce</a></li>
@@ -25,17 +38,15 @@
       <!-- /* ==========================end-header========================== */ -->
     </main>
     <!-- /* ==========================scripts========================== */ -->
-    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.9.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="/scripts/jquery.nivo.slider.js"
+    ></script>
     <script type="text/javascript">
-      // scripte slider
-      $(window).load(function () {
-        $("#slider").nivoSlider();
-      });
-      // end-scripte-slider
       //      scripte-burger
       $("#nav #burger").click(function () {
-        $("#nav ul").slideToggle(800);
+        $("#nav ul").slideToggle(500);
       });
       //    end-scripte-burger
     </script>

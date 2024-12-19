@@ -42,7 +42,23 @@ ul {
   width: 100%;
   margin: 0 auto;
   /* ==========================header========================== */
-
+#nav{
+    .blocburger-logo{
+        display: flex;
+        justify-content: space-around;
+        #burger{
+        display: flex;
+        justify-content: end;
+    }
+    #logo{
+        .logo1{
+            height: 100px;
+            width: auto;
+        }
+    }
+    }
+    
+}
   /* ==========================end-header========================== */
   /* ==========================body========================== */
 
