@@ -2,26 +2,31 @@
 $colorbloc: #ced4da;
 $colorbutton: #bbe7f3;
 $colorbackground : #F8F8F8;
+
 /* ==========================end-variables========================== */
 /* ==========================fonts========================== */
 /* fira-sans-condensed-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Fira Sans Condensed";
   font-style: normal;
   font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-italic.woff2")
-    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* fira-sans-condensed-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Fira Sans Condensed";
   font-style: italic;
   font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2")
-    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* ==========================end-fonts========================== */
 /* ==========================reset========================== */
 * {
@@ -29,36 +34,46 @@ $colorbackground : #F8F8F8;
   padding: 0;
   background-color: $colorbackground;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
+
 /* ==========================end-reset========================== */
 /* ==========================container========================== */
 #container {
+  // IphoneXR dimension: 414px
   max-width: 414px;
   width: 100%;
   margin: 0 auto;
+
   /* ==========================header========================== */
-#nav{
-    .blocburger-logo{
+  #nav {
+    .blocburger-logo {
+      display: flex;
+      justify-content: space-around;
+
+      #burger {
         display: flex;
-        justify-content: space-around;
-        #burger{
-        display: flex;
-        justify-content: end;
-    }
-    #logo{
-        .logo1{
-            height: 100px;
-            width: auto;
+        align-items: center;
+      }
+
+      #logo {
+        .logo1 {
+          display: flex;
+          align-items: center;
+          height: 30px;
+          width: auto;
         }
+      }
     }
-    }
-    
-}
+
+  }
+
   /* ==========================end-header========================== */
   /* ==========================body========================== */
 
@@ -94,22 +109,16 @@ ul {
 
   /* ==========================end-RGPD========================== */
 }
+
 /* ==========================end-container========================== */
 /* ==========================media querie========================== */
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:600px) {}
 
-}
+@media screen and (min-width:800px) {}
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {}
 
-}
+@media screen and (min-width:1200px) {}
 
-@media screen and (min-width:1000px) {
-
-}
-
-@media screen and (min-width:1200px) {
-
-}
 /* ==========================media querie========================== */

@@ -4,19 +4,23 @@
 /* ==========================fonts========================== */
 /* fira-sans-condensed-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Fira Sans Condensed";
   font-style: normal;
   font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* fira-sans-condensed-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Fira Sans Condensed";
   font-style: italic;
   font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ==========================end-fonts========================== */
 /* ==========================reset========================== */
@@ -65,10 +69,12 @@ ul {
 }
 #container #nav .blocburger-logo #burger {
   display: flex;
-  justify-content: end;
+  align-items: center;
 }
 #container #nav .blocburger-logo #logo .logo1 {
-  height: 100px;
+  display: flex;
+  align-items: center;
+  height: 30px;
   width: auto;
 }
 
