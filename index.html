@@ -18,29 +18,41 @@
       <header id="nav">
         <div class="blocburger-logo">
           <div id="logo">
-            <a href="index.html"><img
-              src="/images/logo1.png"
-              alt="logo Aux Gîtes de maelle"
-              class="logo1"
+            <a href="index.html"
+              ><img
+                src="/images/logo1.png"
+                alt="logo Aux Gîtes de maelle"
+                class="logo1"
             /></a>
           </div>
           <div id="burger">
             <a href="#"><i class="fa-solid fa-bars"></i></a>
           </div>
         </div>
-
-        <ul>
-          <li><a href="/index.html">Accueil</a></li>
-          <li><a href="/annonce.html">Annonce</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
+        <div class="list">
+          <ul>
+            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/annonce.html">Annonce</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
       </header>
       <!-- /* ==========================end-header========================== */ -->
-      <!-- /* ==========================commentaire1========================== */ -->
-      <!-- /* ==========================commentaire1========================== */ -->
-      <!-- /* ==========================commentaire2========================== */ -->
-      <!-- /* ==========================commentaire2========================== */ -->
+      <!-- /* ==========================body-content========================== */ -->
+      <!-- /* ==========================section-xp========================== */ -->
+      <section id="presentation">
+        <div class="blocxp">
+          <img src="/images/imgxp.png" alt="image-experience" class="imgxp" />
+          <h1>L’expérience</h1>
+          <h2>
+            Vivez un séjour authentique, entre confort, découvertes locales et
+            moments inoubliables.
+          </h2>
+        </div>
+      </section>
+      <!-- /* ==========================end-section-xp========================== */ -->
     </main>
+    <!-- /* ==========================end-body-content========================== */ -->
     <!-- /* ==========================scripts========================== */ -->
     <script type="text/javascript" src="/scripts/jquery-1.9.0.min.js"></script>
     <script
@@ -50,7 +62,7 @@
     <script type="text/javascript">
       //      scripte-burger
       $("#nav #burger").click(function () {
-        $("#nav ul").slideToggle(500);
+        $("#nav ul").slideToggle(100);
       });
       //    end-scripte-burger
     </script>

@@ -4,13 +4,10 @@
 /* ==========================fonts========================== */
 /* fira-sans-condensed-regular - latin */
 @font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Fira Sans Condensed";
+  font-family: "fira_sans_condensedregular";
+  src: url("/font/fira-sans-condensed-v10-latin/firasanscondensed-regular-webfont.woff") format("woff2"), url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-italic.woff2") format("woff2");
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* fira-sans-condensed-italic - latin */
 @font-face {
@@ -27,7 +24,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #F8F8F8;
 }
 
 a {
@@ -44,10 +40,11 @@ ul {
   max-width: 414px;
   width: 100%;
   margin: 0 auto;
+  background-color: #F8F8F8;
   /* ==========================header========================== */
   /* ==========================end-header========================== */
-  /* ==========================body========================== */
-  /* ==========================end-body========================== */
+  /* ==========================sections========================== */
+  /* ==========================end-sections========================== */
   /* ==========================footer========================== */
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
@@ -63,19 +60,60 @@ ul {
   /* ==========================RGPD========================== */
   /* ==========================end-RGPD========================== */
 }
+#container #nav {
+  position: sticky;
+}
 #container #nav .blocburger-logo {
+  padding-top: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #container #nav .blocburger-logo #burger {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 #container #nav .blocburger-logo #logo .logo1 {
   display: flex;
   align-items: center;
   height: 30px;
   width: auto;
+  margin-left: 10px;
+}
+#container #nav .list {
+  display: flex;
+  justify-content: center;
+}
+#container #nav .list ul li {
+  padding: 7px;
+  font-family: "Fira Sans Condensed";
+  font-size: 20px;
+}
+#container #presentation {
+  background-color: #ced4da;
+  height: 320px;
+  margin-top: 10px;
+}
+#container #presentation .blocxp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#container #presentation .blocxp .imgxp {
+  padding: 25px;
+  height: 100px;
+  width: auto;
+}
+#container #presentation .blocxp h1 {
+  padding: 10px;
+  font-family: "Fira Sans Condensed";
+}
+#container #presentation .blocxp h2 {
+  padding: 10px;
+  font-family: "fira_sans_condensedregular";
+  font-weight: 200;
 }
 
 /* ==========================end-container========================== */
