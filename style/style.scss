@@ -1,18 +1,20 @@
 /* ==========================variables========================= */
+$colorwhite: white;
+$colorblack: black;
 $colorbloc: #ced4da;
 $colorbutton: #bbe7f3;
-$colorbackground : #F8F8F8;
+$colorbackground: #f8f8f8;
+$colorfooter: #212529;
 
 /* ==========================end-variables========================== */
 /* ==========================fonts========================== */
 /* fira-sans-condensed-regular - latin */
 @font-face {
-  font-family: 'fira_sans_condensedregular';
-  src: url('/font/fira-sans-condensed-v10-latin/firasanscondensed-regular-webfont.woff') format('woff2'),
-       url('/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2') format('woff');
+  font-family: "fira_sans_condensedregular";
+  src: url("/font/fira-sans-condensed-v10-latin/firasanscondensed-regular-webfont.woff") format("woff2"),
+    url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
 /* fira-sans-condensed-italic - latin */
@@ -83,45 +85,152 @@ ul {
       justify-content: center;
 
       ul {
+        margin-top: 30px;
         li {
-          padding: 7px;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
           font-family: "Fira Sans Condensed";
-          font-size: 20px;
+          font-size: 25px;
+
+          a {
+            color: black;
+          }
         }
       }
     }
   }
+
   /* ==========================end-header========================== */
+  /* ==========================bloc-img-presentation========================== */
+  .blocimgpresentation {
+    background-color: $colorblack;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .imgsatis {
+      height: 233px;
+      width: auto;
+      opacity: 0.7;
+    }
+
+    .logo2 {
+      position: absolute;
+      height: 50px;
+      width: auto;
+    }
+  }
+
+  /* ==========================end-bloc-img-presentation========================== */
+
   /* ==========================sections========================== */
-  #presentation{
-    background-color: $colorbloc;
-    height: 320px;
-    margin-top: 10px;
-    .blocxp{
+  /* ==========================bloc-XP========================== */
+  #presentation {
+    .blocxp {
+      background-color: $colorbloc;
       display: flex;
       flex-direction: column;
-      // flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       text-align: center;
-      .imgxp{
+      height: 320px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      .imgxp {
         padding: 25px;
         height: 100px;
         width: auto;
       }
-      h1{
+
+      h1 {
         padding: 10px;
         font-family: "Fira Sans Condensed";
       }
-      h2{
+
+      h2 {
         padding: 10px;
-        font-family: 'fira_sans_condensedregular';
+        font-family: "fira_sans_condensedregular";
         font-weight: 200;
       }
     }
+
+    /* ==========================end-bloc-XP========================== */
+    /* ==========================-bloc-satisfaction========================== */
+    .blocsatisfaction {
+      background-color: $colorbloc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 320px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      .imgsatisfaction {
+        padding: 25px;
+        height: 100px;
+        width: auto;
+      }
+
+      h1 {
+        padding: 10px;
+        font-family: "Fira Sans Condensed";
+      }
+
+      h2 {
+        padding: 10px;
+        font-family: "fira_sans_condensedregular";
+        font-weight: 200;
+      }
+    }
+
+    /* ==========================end-bloc-satisfaction========================== */
   }
+
   /* ==========================end-sections========================== */
   /* ==========================footer========================== */
+  #footer {
+    background-color: $colorfooter;
+    height: 100px;
+    width: auto;
+
+    .icones {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+
+      i {
+        padding: 15px;
+      }
+    }
+
+    .rgpd {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+
+      h1 {
+        color: white;
+        font-size: 11px;
+        font-family: "Fira Sans Condensed";
+        font-style: italic;
+
+        a {
+          color: white;
+          font-family: "Fira Sans Condensed";
+          font-style: italic;
+        }
+      }
+    }
+  }
 
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
@@ -156,12 +265,12 @@ ul {
 /* ==========================end-container========================== */
 /* ==========================media querie========================== */
 
-@media screen and (min-width:600px) {}
+@media screen and (min-width: 600px) {}
 
-@media screen and (min-width:800px) {}
+@media screen and (min-width: 800px) {}
 
-@media screen and (min-width:1000px) {}
+@media screen and (min-width: 1000px) {}
 
-@media screen and (min-width:1200px) {}
+@media screen and (min-width: 1200px) {}
 
 /* ==========================media querie========================== */

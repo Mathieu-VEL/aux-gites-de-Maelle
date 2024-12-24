@@ -40,10 +40,13 @@ ul {
   max-width: 414px;
   width: 100%;
   margin: 0 auto;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   /* ==========================header========================== */
   /* ==========================end-header========================== */
+  /* ==========================bloc-img-presentation========================== */
+  /* ==========================end-bloc-img-presentation========================== */
   /* ==========================sections========================== */
+  /* ==========================bloc-XP========================== */
   /* ==========================end-sections========================== */
   /* ==========================footer========================== */
   /* ==========================end-footer========================== */
@@ -84,22 +87,55 @@ ul {
   display: flex;
   justify-content: center;
 }
+#container #nav .list ul {
+  margin-top: 30px;
+}
 #container #nav .list ul li {
-  padding: 7px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
   font-family: "Fira Sans Condensed";
-  font-size: 20px;
+  font-size: 25px;
+}
+#container #nav .list ul li a {
+  color: black;
+}
+#container .blocimgpresentation {
+  background-color: black;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#container .blocimgpresentation .imgsatis {
+  height: 233px;
+  width: auto;
+  opacity: 0.7;
+}
+#container .blocimgpresentation .logo2 {
+  position: absolute;
+  height: 50px;
+  width: auto;
 }
 #container #presentation {
-  background-color: #ced4da;
-  height: 320px;
-  margin-top: 10px;
+  /* ==========================end-bloc-XP========================== */
+  /* ==========================-bloc-satisfaction========================== */
+  /* ==========================end-bloc-satisfaction========================== */
 }
 #container #presentation .blocxp {
+  background-color: #ced4da;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #container #presentation .blocxp .imgxp {
   padding: 25px;
@@ -114,6 +150,60 @@ ul {
   padding: 10px;
   font-family: "fira_sans_condensedregular";
   font-weight: 200;
+}
+#container #presentation .blocsatisfaction {
+  background-color: #ced4da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#container #presentation .blocsatisfaction .imgsatisfaction {
+  padding: 25px;
+  height: 100px;
+  width: auto;
+}
+#container #presentation .blocsatisfaction h1 {
+  padding: 10px;
+  font-family: "Fira Sans Condensed";
+}
+#container #presentation .blocsatisfaction h2 {
+  padding: 10px;
+  font-family: "fira_sans_condensedregular";
+  font-weight: 200;
+}
+#container #footer {
+  background-color: #212529;
+  height: 100px;
+  width: auto;
+}
+#container #footer .icones {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+#container #footer .icones i {
+  padding: 15px;
+}
+#container #footer .rgpd {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#container #footer .rgpd h1 {
+  color: white;
+  font-size: 11px;
+  font-family: "Fira Sans Condensed";
+  font-style: italic;
+}
+#container #footer .rgpd h1 a {
+  color: white;
+  font-family: "Fira Sans Condensed";
+  font-style: italic;
 }
 
 /* ==========================end-container========================== */
