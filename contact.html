@@ -39,9 +39,77 @@
       </header>
       <!-- /* ==========================end-header========================== */ -->
       <!-- /* ==========================body-content========================== */ -->
-      <!-- /* ==========================section========================== */ -->
-      <section></section>
-      <!-- /* ==========================end-section========================== */ -->
+      <!-- bloc contact -->
+      <div class="containercontact">
+        <form action="contact.php" method="post" class="form" id="form">
+          <div>
+            <h1>
+              <h1>Civilité</h1>
+            </h1>
+          </div>
+          <div class="civilite">
+            <label for="homme">Homme</label>
+            <input type="radio" name="Civilité" id="homme" value="homme">
+            <label for="femme">Femme</label>
+            <input type="radio" name="Civilité" id="femme" value="femme">
+          </div>
+          <div class="nomprenom">
+            <h1>
+              Nom Préom
+            </h1>
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Votre Nom Préom">
+          </div>
+          <div class="tel">
+            <h1>
+              Votre numéro de téléphone
+            </h1>
+            <label for="tel"></label>
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone">
+          </div>
+          <div class="mail">
+            <h1>
+              Votre Email
+            </h1>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" required placeholder="Votre Mail">
+          </div>
+          <div class="age">
+            <h1>
+              Votre age
+            </h1>
+            <label for="age"></label>
+            <input type="number" name="age" id="age" placeholder="Votre age" min="18" max="200" step="5">
+          </div>
+          <div class="calendrier">
+            <div>
+              <h1>
+                Date d'arrivée
+              </h1>
+              <label for="date"></label> <br>
+              <input type="date" name="date" id="date" min="2025-16-01"> <br>
+            </div>
+            <div>
+              <h1>
+                Date de départ
+              </h1>
+              <label for="date"></label><br>
+              <input type="date" name="date" id="date" min="2025-16-01">
+            </div>     
+          </div>
+          <div class="message">
+            <h1>
+              Votre message
+            </h1>
+            <label for="bio"></label>
+            <textarea name="bio" id="bio" placeholder="message"></textarea>
+          </div>
+          <div class="bouton">
+            <button type="button">Envoyer</button>
+          </div>
+        </form>
+      </div>
+      <!-- end-bloc contact -->
       <!-- /* ==========================footer========================== */ -->
       <footer id="footer">
         <div class="icones">
@@ -72,7 +140,7 @@
   <script type="text/javascript">
     //      scripte-burger
     $("#nav #burger").click(function () {
-      $("#nav ul").slideToggle(500);
+      $("#nav ul").slideToggle(100);
     });
     //    end-scripte-burger
   </script>
