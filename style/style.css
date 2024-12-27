@@ -43,11 +43,15 @@ ul {
   background-color: #f8f8f8;
   /* ==========================header========================== */
   /* ==========================end-header========================== */
+  /* ==========================index========================== */
   /* ==========================bloc-img-presentation========================== */
   /* ==========================end-bloc-img-presentation========================== */
   /* ==========================sections========================== */
   /* ==========================bloc-XP========================== */
   /* ==========================end-sections========================== */
+  /* ==========================bouton-annonces========================== */
+  /* ==========================end-bouton-annonces========================== */
+  /* ==========================end-index========================== */
   /* ==========================footer========================== */
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
@@ -127,6 +131,8 @@ ul {
   /* ==========================end-bloc-satisfaction========================== */
   /* ==========================bloc-confiance========================== */
   /* ==========================end-bloc-confiance========================== */
+  /* ==========================bloc-sécurité========================== */
+  /* ==========================end-bloc-sécurité========================== */
 }
 #container #presentation .blocxp {
   background-color: #ced4da;
@@ -178,7 +184,7 @@ ul {
   font-family: "fira_sans_condensedregular";
   font-weight: 200;
 }
-#container #presentation .blocsatisfaction {
+#container #presentation .blocconfiance {
   background-color: #ced4da;
   display: flex;
   flex-direction: column;
@@ -189,19 +195,62 @@ ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#container #presentation .blocsatisfaction .imgsatisfaction {
+#container #presentation .blocconfiance .imgconfiance {
   padding: 25px;
   height: 100px;
   width: auto;
 }
-#container #presentation .blocsatisfaction h1 {
+#container #presentation .blocconfiance h1 {
   padding: 10px;
   font-family: "Fira Sans Condensed";
 }
-#container #presentation .blocsatisfaction h2 {
+#container #presentation .blocconfiance h2 {
   padding: 10px;
   font-family: "fira_sans_condensedregular";
   font-weight: 200;
+}
+#container #presentation .blocsecurite {
+  background-color: #ced4da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#container #presentation .blocsecurite .imgsecurite {
+  padding: 25px;
+  height: 100px;
+  width: auto;
+}
+#container #presentation .blocsecurite h1 {
+  padding: 10px;
+  font-family: "Fira Sans Condensed";
+}
+#container #presentation .blocsecurite h2 {
+  padding: 10px;
+  font-family: "fira_sans_condensedregular";
+  font-weight: 200;
+}
+#container .boutonannonce {
+  display: flex;
+  justify-content: center;
+}
+#container .boutonannonce a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbe7f3;
+  height: 70px;
+  width: 170px;
+  font-size: 25px;
+  font-family: "Fira Sans Condensed";
+  color: black;
+  border-radius: 10px;
+  margin-top: 14px;
+  margin-bottom: 20px;
 }
 #container #footer {
   background-color: #212529;

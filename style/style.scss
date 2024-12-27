@@ -11,8 +11,10 @@ $colorfooter: #212529;
 /* fira-sans-condensed-regular - latin */
 @font-face {
   font-family: "fira_sans_condensedregular";
-  src: url("/font/fira-sans-condensed-v10-latin/firasanscondensed-regular-webfont.woff") format("woff2"),
-    url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff");
+  src: url("/font/fira-sans-condensed-v10-latin/firasanscondensed-regular-webfont.woff")
+      format("woff2"),
+    url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +26,8 @@ $colorfooter: #212529;
   font-family: "Fira Sans Condensed";
   font-style: italic;
   font-weight: 400;
-  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2") format("woff2");
+  src: url("/font/fira-sans-condensed-v10-latin/fira-sans-condensed-v10-latin-regular.woff2")
+    format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -103,6 +106,7 @@ ul {
   }
 
   /* ==========================end-header========================== */
+  /* ==========================index========================== */
   /* ==========================bloc-img-presentation========================== */
   .blocimgpresentation {
     background-color: $colorblack;
@@ -195,7 +199,7 @@ ul {
 
     /* ==========================end-bloc-satisfaction========================== */
     /* ==========================bloc-confiance========================== */
-    .blocsatisfaction {
+    .blocconfiance {
       background-color: $colorbloc;
       display: flex;
       flex-direction: column;
@@ -206,7 +210,7 @@ ul {
       margin-top: 10px;
       margin-bottom: 10px;
 
-      .imgsatisfaction {
+      .imgconfiance {
         padding: 25px;
         height: 100px;
         width: auto;
@@ -226,17 +230,62 @@ ul {
 
     /* ==========================end-bloc-confiance========================== */
 
+    /* ==========================bloc-sécurité========================== */
+    .blocsecurite {
+      background-color: $colorbloc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 320px;
+      margin-top: 10px;
+      margin-bottom: 10px;
 
+      .imgsecurite {
+        padding: 25px;
+        height: 100px;
+        width: auto;
+      }
+
+      h1 {
+        padding: 10px;
+        font-family: "Fira Sans Condensed";
+      }
+
+      h2 {
+        padding: 10px;
+        font-family: "fira_sans_condensedregular";
+        font-weight: 200;
+      }
+    }
+
+    /* ==========================end-bloc-sécurité========================== */
   }
-
-
-
-
-
-
-
-
   /* ==========================end-sections========================== */
+
+  /* ==========================bouton-annonces========================== */
+  .boutonannonce {
+    display: flex;
+    justify-content: center;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #bbe7f3;
+      height: 70px;
+      width: 170px;
+      font-size: 25px;
+      font-family: "Fira Sans Condensed";
+      color: $colorblack;
+      border-radius: 10px;
+      margin-top: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  /* ==========================end-bouton-annonces========================== */
+    /* ==========================end-index========================== */
+
   /* ==========================footer========================== */
   #footer {
     background-color: $colorfooter;
@@ -306,12 +355,16 @@ ul {
 /* ==========================end-container========================== */
 /* ==========================media querie========================== */
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 600px) {
+}
 
-@media screen and (min-width: 800px) {}
+@media screen and (min-width: 800px) {
+}
 
-@media screen and (min-width: 1000px) {}
+@media screen and (min-width: 1000px) {
+}
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
 
 /* ==========================media querie========================== */
