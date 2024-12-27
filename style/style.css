@@ -56,6 +56,8 @@ ul {
   /* ==========================end-page-Annonces========================== */
   /* ==========================page-Article1========================== */
   /* ==========================end-page-Article1========================== */
+  /* ==========================page-détails1========================== */
+  /* ==========================end-page-détails========================== */
   /* ==========================footer========================== */
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
@@ -354,6 +356,101 @@ ul {
   background-color: #bbe7f3;
   height: 70px;
   width: 200px;
+  font-size: 25px;
+  font-family: "Fira Sans Condensed";
+  color: black;
+  border-radius: 10px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+#container .map {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#container .containerdetails {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#container .containerdetails .bloc1 {
+  background-color: #ced4da;
+}
+#container .containerdetails .bloc1 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+}
+#container .containerdetails .bloc1 h2 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding: 10px;
+}
+#container .containerdetails .bloc2 {
+  background-color: #ced4da;
+  margin-top: 20px;
+}
+#container .containerdetails .bloc2 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+}
+#container .containerdetails .bloc2 h2 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+#container .containerdetails .bloc3 {
+  background-color: #ced4da;
+  margin-top: 20px;
+}
+#container .containerdetails .bloc3 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+}
+#container .containerdetails .bloc3 h2 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+#container .containerdetails .bloc4 {
+  background-color: #ced4da;
+  margin-top: 20px;
+}
+#container .containerdetails .bloc4 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+}
+#container .containerdetails .bloc4 h2 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+#container .containerdetails .boutoncontact {
+  display: flex;
+  justify-content: center;
+}
+#container .containerdetails .boutoncontact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #bbe7f3;
+  height: 70px;
+  width: 150px;
   font-size: 25px;
   font-family: "Fira Sans Condensed";
   color: black;
