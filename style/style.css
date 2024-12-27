@@ -43,15 +43,19 @@ ul {
   background-color: #f8f8f8;
   /* ==========================header========================== */
   /* ==========================end-header========================== */
-  /* ==========================index========================== */
+  /* ==========================Page-index========================== */
   /* ==========================bloc-img-presentation========================== */
   /* ==========================end-bloc-img-presentation========================== */
   /* ==========================sections========================== */
   /* ==========================bloc-XP========================== */
   /* ==========================end-sections========================== */
   /* ==========================bouton-annonces========================== */
-  /* ==========================end-bouton-annonces========================== */
-  /* ==========================end-index========================== */
+  /* ==========================end-bouton-Annonces========================== */
+  /* ==========================end-page-index========================== */
+  /* ==========================page-Annonces========================== */
+  /* ==========================end-page-Annonces========================== */
+  /* ==========================page-Article1========================== */
+  /* ==========================end-page-Article1========================== */
   /* ==========================footer========================== */
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
@@ -252,6 +256,111 @@ ul {
   margin-top: 14px;
   margin-bottom: 20px;
 }
+#container .annonces {
+  width: 300px;
+  margin: auto;
+}
+#container .annonces .article1 {
+  background-color: #ced4da;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#container .annonces .article1 .imgarticle {
+  height: 130px;
+  width: 300px;
+  overflow: hidden;
+}
+#container .annonces .article1 .imgarticle .imgmaison1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#container .annonces .article1 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
+#container .annonces .article2 {
+  background-color: #ced4da;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#container .annonces .article2 .imgarticle2 {
+  height: 130px;
+  width: 300px;
+  overflow: hidden;
+}
+#container .annonces .article2 .imgarticle2 .imgmaison2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#container .annonces .article2 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
+#container .slider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#container .detailsarticle {
+  background-color: #ced4da;
+  margin-bottom: 30px;
+}
+#container .detailsarticle .bloc1 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding: 10px;
+}
+#container .detailsarticle .bloc2 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding: 10px;
+}
+#container .detailsarticle .bloc3 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+}
+#container .detailsarticle .bloc3 h2 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 23px;
+  font-weight: 500;
+  padding: 10px;
+}
+#container .detailsarticle .plandactivite {
+  display: flex;
+  justify-content: center;
+}
+#container .detailsarticle .plandactivite a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #bbe7f3;
+  height: 70px;
+  width: 200px;
+  font-size: 25px;
+  font-family: "Fira Sans Condensed";
+  color: black;
+  border-radius: 10px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
 #container #footer {
   background-color: #212529;
   height: 100px;
@@ -280,6 +389,12 @@ ul {
   color: white;
   font-family: "Fira Sans Condensed";
   font-style: italic;
+}
+#container .nivo-caption {
+  background-color: transparent;
+  top: 40%;
+  left: 40%;
+  font-size: 5rem;
 }
 
 /* ==========================end-container========================== */

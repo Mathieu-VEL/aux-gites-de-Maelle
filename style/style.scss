@@ -106,7 +106,7 @@ ul {
   }
 
   /* ==========================end-header========================== */
-  /* ==========================index========================== */
+  /* ==========================Page-index========================== */
   /* ==========================bloc-img-presentation========================== */
   .blocimgpresentation {
     background-color: $colorblack;
@@ -283,8 +283,126 @@ ul {
       margin-bottom: 20px;
     }
   }
-  /* ==========================end-bouton-annonces========================== */
-    /* ==========================end-index========================== */
+  /* ==========================end-bouton-Annonces========================== */
+  /* ==========================end-page-index========================== */
+  /* ==========================page-Annonces========================== */
+  .annonces {
+    width: 300px;
+    margin: auto;
+    .article1 {
+      background-color: $colorbloc;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      .imgarticle {
+        height: 130px;
+        width: 300px;
+        overflow: hidden;
+        .imgmaison1 {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+
+    .article2 {
+      background-color: $colorbloc;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      .imgarticle2 {
+        height: 130px;
+        width: 300px;
+        overflow: hidden;
+        .imgmaison2 {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+  }
+  /* ==========================end-page-Annonces========================== */
+  /* ==========================page-Article1========================== */
+  .slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .detailsarticle {
+    background-color: $colorbloc;
+    margin-bottom: 30px;
+    .bloc1 {
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 23px;
+        font-weight: 500;
+        padding: 10px;
+      }
+    }
+
+    .bloc2 {
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 23px;
+        font-weight: 500;
+        padding: 10px;
+      }
+    }
+    .bloc3 {
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 23px;
+        font-weight: 800;
+        padding: 10px;
+      }
+      h2 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 23px;
+        font-weight: 500;
+        padding: 10px;
+      }
+    }
+    .plandactivite{
+      display: flex;
+      justify-content: center;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #bbe7f3;
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+        font-family: "Fira Sans Condensed";
+        color: $colorblack;
+        border-radius: 10px;
+        margin-top: 14px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  /* ==========================end-page-Article1========================== */
 
   /* ==========================footer========================== */
   #footer {
@@ -324,12 +442,12 @@ ul {
 
   /* ==========================end-footer========================== */
   /*======================= modif slider ======================*/
-  // .nivo-caption{
-  //     background-color: transparent;
-  //     top:40%;
-  //     left:40%;
-  //     font-size:5rem;
-  // }
+  .nivo-caption {
+    background-color: transparent;
+    top: 40%;
+    left: 40%;
+    font-size: 5rem;
+  }
   // .nivo-controlNav{
   //     display:none;
   // }

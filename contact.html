@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
     <title>Document</title>
     <!-- /* ==========================font-awesome========================== */ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <!-- /* ==========================end-font-awesome========================== */ -->
-</head>
-<body>
-    
-</body>
-    <!-- /* ==========================scripts========================== */ -->
-    <script type="text/javascript" src="/scripts/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
-      //      scripte-burger
-      $("#nav #burger").click(function () {
-        $("#nav ul").slideToggle(500);
-      });
-      //    end-scripte-burger
-    </script>
-    <!-- /* ==========================end-scripts========================== */ -->
+  </head>
+  <body>
+    <main id="container">
+      <!-- /* ==========================header========================== */ -->
+      <header id="nav">
+        <div class="blocburger-logo">
+          <div id="logo">
+            <a href="index.html"
+              ><img
+                src="/images/logo1.png"
+                alt="logo Aux Gîtes de maelle"
+                class="logo1"
+            /></a>
+          </div>
+          <div id="burger">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+        </div>
+        <div class="list">
+          <ul>
+            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/annonce.html">Annonce</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- /* ==========================end-header========================== */ -->
+      <!-- /* ==========================body-content========================== */ -->
+      <!-- /* ==========================section========================== */ -->
+      <section></section>
+      <!-- /* ==========================end-section========================== */ -->
+      <!-- /* ==========================footer========================== */ -->
+      <footer id="footer">
+        <div class="icones">
+          <div class="facebook">
+            <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+          </div>
+          <div class="discord">
+            <i class="fa-brands fa-discord" style="color: #ffffff"></i>
+          </div>
+          <div class="instagram">
+            <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+          </div>
+        </div>
+        <div class="rgpd">
+          <h1>©2024 AUX GÎTES DE MAËLL</h1>
+          <h1>
+            <a href="/rgpd.html">MENTIONS LÉGALES</a>
+          </h1>
+        </div>
+      </footer>
+      <!-- /* ==========================end-footer========================== */ -->
+    </main>
+    <!-- /* ==========================end-body-content========================== */ -->
+  </body>
+  <!-- /* ==========================scripts========================== */ -->
+  <script type="text/javascript" src="/scripts/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="/scripts/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+    //      scripte-burger
+    $("#nav #burger").click(function () {
+      $("#nav ul").slideToggle(500);
+    });
+    //    end-scripte-burger
+  </script>
+  <!-- /* ==========================end-scripts========================== */ -->
 </html>
