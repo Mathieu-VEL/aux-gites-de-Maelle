@@ -349,9 +349,10 @@ ul {
   }
 
   .detailsarticle {
-    background-color: $colorbloc;
     margin-bottom: 30px;
     .bloc1 {
+      background-color: $colorbloc;
+      margin-bottom: 20px;
       h1 {
         font-family: "fira_sans_condensedregular";
         font-size: 23px;
@@ -361,6 +362,8 @@ ul {
     }
 
     .bloc2 {
+      background-color: $colorbloc;
+      margin-bottom: 20px;
       h1 {
         font-family: "fira_sans_condensedregular";
         font-size: 23px;
@@ -369,6 +372,8 @@ ul {
       }
     }
     .bloc3 {
+      background-color: $colorbloc;
+      margin-bottom: 20px;
       h1 {
         font-family: "fira_sans_condensedregular";
         font-size: 23px;

@@ -317,8 +317,11 @@ ul {
   margin-bottom: 20px;
 }
 #container .detailsarticle {
-  background-color: #ced4da;
   margin-bottom: 30px;
+}
+#container .detailsarticle .bloc1 {
+  background-color: #ced4da;
+  margin-bottom: 20px;
 }
 #container .detailsarticle .bloc1 h1 {
   font-family: "fira_sans_condensedregular";
@@ -326,11 +329,19 @@ ul {
   font-weight: 500;
   padding: 10px;
 }
+#container .detailsarticle .bloc2 {
+  background-color: #ced4da;
+  margin-bottom: 20px;
+}
 #container .detailsarticle .bloc2 h1 {
   font-family: "fira_sans_condensedregular";
   font-size: 23px;
   font-weight: 500;
   padding: 10px;
+}
+#container .detailsarticle .bloc3 {
+  background-color: #ced4da;
+  margin-bottom: 20px;
 }
 #container .detailsarticle .bloc3 h1 {
   font-family: "fira_sans_condensedregular";
