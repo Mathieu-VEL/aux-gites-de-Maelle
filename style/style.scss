@@ -57,12 +57,10 @@ ul {
   background-color: $colorbackground;
 
   /* ==========================header========================== */
+  /* ==========================menu-burger========================== */
   #nav {
-    position: sticky;
-
     .blocburger-logo {
-      margin-top: 10px;
-      padding-top: 10px;
+      padding-top: 25px;
       display: flex;
       justify-content: space-between;
 
@@ -82,21 +80,16 @@ ul {
         }
       }
     }
-
     .list {
       display: flex;
       justify-content: center;
-
       ul {
         margin-top: 30px;
-
         li {
           display: flex;
-          justify-content: center;
           padding: 15px;
           font-family: "Fira Sans Condensed";
           font-size: 25px;
-
           a {
             color: black;
             height: 100px;
@@ -106,7 +99,7 @@ ul {
       }
     }
   }
-
+  /* ==========================menu-burger========================== */
   /* ==========================end-header========================== */
   /* ==========================Page-index========================== */
   /* ==========================bloc-img-presentation========================== */
@@ -135,7 +128,6 @@ ul {
   }
 
   /* ==========================end-bloc-img-presentation========================== */
-
   /* ==========================sections========================== */
   /* ==========================bloc-XP========================== */
   #presentation {
@@ -231,7 +223,6 @@ ul {
     }
 
     /* ==========================end-bloc-confiance========================== */
-
     /* ==========================bloc-sécurité========================== */
     .blocsecurite {
       background-color: $colorbloc;
@@ -265,7 +256,6 @@ ul {
     /* ==========================end-bloc-sécurité========================== */
   }
   /* ==========================end-sections========================== */
-
   /* ==========================bouton-annonces========================== */
   .boutonannonce {
     display: flex;
@@ -528,14 +518,14 @@ ul {
     font-size: 20px;
     font-family: "Fira Sans Condensed";
     #form {
-      input{
+      input {
         border: none;
         padding-left: 10px;
         background-color: #ecf6ff;
         font-family: "Fira Sans Condensed";
         border-radius: 10px;
       }
-      h1{
+      h1 {
         font-size: 20px;
         font-weight: 500;
         padding-bottom: 10px;
@@ -545,16 +535,16 @@ ul {
         height: 50px;
         width: 300px;
         padding-top: 12px;
-        label{
+        label {
           padding-left: 3px;
         }
-        input{
+        input {
           margin-bottom: 20px;
           font-family: "Fira Sans Condensed";
         }
       }
       .nomprenom {
-        input{
+        input {
           height: 50px;
           width: 300px;
           margin-bottom: 20px;
@@ -562,16 +552,15 @@ ul {
         }
       }
       .tel {
-        input{
+        input {
           height: 50px;
           width: 300px;
           margin-bottom: 20px;
           font-family: "Fira Sans Condensed";
         }
-        
       }
       .mail {
-        input{
+        input {
           height: 50px;
           width: 300px;
           margin-bottom: 20px;
@@ -579,7 +568,7 @@ ul {
         }
       }
       .age {
-        input{
+        input {
           height: 50px;
           width: 300px;
           margin-bottom: 20px;
@@ -587,10 +576,10 @@ ul {
         }
       }
       .calendrier {
-        h1{
+        h1 {
           margin-bottom: -25px;
         }
-        input{
+        input {
           height: 50px;
           width: 300px;
           margin-bottom: 20px;
@@ -598,7 +587,7 @@ ul {
         }
       }
       .message {
-        textarea{
+        textarea {
           background-color: #ecf6ff;
           height: 50px;
           width: 300px;
@@ -613,7 +602,7 @@ ul {
       .bouton {
         display: flex;
         justify-content: center;
-        button{
+        button {
           height: 50px;
           width: 200px;
           display: flex;
@@ -633,7 +622,81 @@ ul {
   }
 
   /* ==========================end-page-Contact========================== */
-
+  /* ==========================page-RGPD========================== */
+  .blocrgpd {
+    margin-top: 50px;
+    .textmention1 {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      font-family: "Fira Sans Condensed";
+      margin-bottom: 25px;
+    }
+    .textmention2 {
+      display: flex;
+      justify-content: center;
+      font-size: 9px;
+      font-family: "Fira Sans Condensed";
+      margin: 20px;
+    }
+    .textmention3 {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      font-family: "Fira Sans Condensed";
+      margin-bottom: 25px;
+    }
+    .textmention4 {
+      display: flex;
+      justify-content: center;
+      font-size: 9px;
+      font-family: "Fira Sans Condensed";
+      margin: 20px;
+    }
+    .textmention5 {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      font-family: "Fira Sans Condensed";
+      margin-bottom: 25px;
+    }
+    .textmention6 {
+      display: flex;
+      justify-content: center;
+      font-size: 9px;
+      font-family: "Fira Sans Condensed";
+      margin: 20px;
+    }
+    .textmention7 {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      font-family: "Fira Sans Condensed";
+      margin-bottom: 25px;
+    }
+    .textmention8 {
+      display: flex;
+      justify-content: center;
+      font-size: 9px;
+      font-family: "Fira Sans Condensed";
+      margin: 20px;
+    }
+    .textmention9 {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      font-family: "Fira Sans Condensed";
+      margin-bottom: 25px;
+    }
+    .textmention10 {
+      display: flex;
+      justify-content: center;
+      font-size: 9px;
+      font-family: "Fira Sans Condensed";
+      margin: 20px;
+    }
+  }
+  /* ==========================page-RGPD========================== */
   /* ==========================footer========================== */
   #footer {
     background-color: $colorfooter;
@@ -682,28 +745,75 @@ ul {
   //     display:none;
   // }
   /*======================= end-modif slider ======================*/
-
-  /* ==========================annonce========================== */
-
-  /* ==========================end-annonce========================== */
-  /* ==========================article========================== */
-
-  /* ==========================end-artocle========================== */
-  /* ==========================activité========================== */
-
-  /* ==========================end-activité========================== */
-  /* ==========================contact========================== */
-
-  /* ==========================end-contact========================== */
-  /* ==========================RGPD========================== */
-
-  /* ==========================end-RGPD========================== */
+  /* ==========================end-container========================== */
 }
-
-/* ==========================end-container========================== */
 /* ==========================media querie========================== */
 
+@media  (min-width: 0px) and (max-width: 600px) {
+  #container {
+    #nav {
+      .blocburger-logo {
+        #burger {
+        }
+        #logo {
+          .logo1 {
+          }
+        }
+        .listnoburger {
+          display: none;
+          ul {
+            li {
+              a {
+              }
+            }
+          }
+        }
+      }
+      .list {
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 600px) {
+  #container {
+    max-width: 600px;
+    width: 100%;
+    #nav {
+      .blocburger-logo {
+        #burger {
+          display: none;
+        }
+        #logo {
+          .logo1 {
+          }
+        }
+        .listnoburger {
+          display: flex;
+          ul {
+            display: flex;
+            flex-direction: row;
+            li {
+              align-content: center;
+              margin-right: 20px;
+              margin-left: 20px;
+              font-family: "Fira Sans Condensed";
+              font-size: 25px;
+              a {
+                color: black;
+                height: 100px;
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+      .list {
+        display: none;
+        flex-direction: row;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 800px) {
