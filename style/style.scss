@@ -749,27 +749,13 @@ ul {
 }
 /* ==========================media querie========================== */
 
-@media  (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 600px) {
   #container {
     #nav {
       .blocburger-logo {
-        #burger {
-        }
-        #logo {
-          .logo1 {
-          }
-        }
         .listnoburger {
           display: none;
-          ul {
-            li {
-              a {
-              }
-            }
-          }
         }
-      }
-      .list {
       }
     }
   }
@@ -783,10 +769,6 @@ ul {
       .blocburger-logo {
         #burger {
           display: none;
-        }
-        #logo {
-          .logo1 {
-          }
         }
         .listnoburger {
           display: flex;
