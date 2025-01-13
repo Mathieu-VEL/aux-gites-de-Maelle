@@ -332,6 +332,56 @@ ul {
         text-align: center;
       }
     }
+    .article3 {
+      background-color: $colorbloc;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      .imgarticle2 {
+        height: 130px;
+        width: 370px;
+        overflow: hidden;
+        .imgmaison2 {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+    .article4 {
+      background-color: $colorbloc;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      .imgarticle2 {
+        height: 130px;
+        width: 370px;
+        overflow: hidden;
+        .imgmaison2 {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+      h1 {
+        font-family: "fira_sans_condensedregular";
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
   }
   /* ==========================end-page-Annonces========================== */
   /* ==========================page-Article1========================== */
@@ -762,8 +812,106 @@ ul {
 }
 
 @media screen and (min-width: 600px) {
+  html {
+    background-color: $colorbackground;
+  }
   #container {
     max-width: 600px;
+    width: 100%;
+    #nav {
+      margin: 10px;
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      .blocburger-logo {
+        margin-bottom: 25px;
+        #burger {
+          display: none;
+        }
+        .listnoburger {
+          display: flex;
+          ul {
+            display: flex;
+            flex-direction: row;
+            li {
+              align-content: center;
+              margin-right: 20px;
+              margin-left: 20px;
+              font-family: "Fira Sans Condensed";
+              font-size: 25px;
+              a {
+                color: black;
+                height: 100px;
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+      .list {
+        display: none;
+        flex-direction: row;
+      }
+    }
+    .blocimgpresentation {
+      margin-top: 40px;
+      border-radius: 10px;
+      .imgsatis {
+        height: 337px;
+        border-radius: 10px;
+      }
+    }
+
+    #presentation {
+      .blocxp {
+        border-radius: 10px;
+      }
+      .blocsatisfaction {
+        border-radius: 10px;
+      }
+      .blocconfiance {
+        border-radius: 10px;
+      }
+      .blocsecurite {
+        border-radius: 10px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  #container {
+    .blocrgpd {
+      .textmention1 {
+      }
+      .textmention2 {
+        text-align: center;
+      }
+      .textmention3 {
+      }
+      .textmention4 {
+        text-align: center;
+      }
+      .textmention5 {
+      }
+      .textmention6 {
+        text-align: center;
+      }
+      .textmention7 {
+      }
+      .textmention8 {
+        text-align: center;
+      }
+      .textmention9 {
+      }
+      .textmention10 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #container {
+    max-width: 1200px;
     width: 100%;
     #nav {
       .blocburger-logo {
@@ -795,16 +943,255 @@ ul {
         flex-direction: row;
       }
     }
+    .blocimgpresentation {
+      border-radius: 10px;
+      height: 400px;
+      width: 800px;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .imgsatis {
+        height: 400px;
+        width: 800px;
+        border-radius: 10px;
+      }
+    }
+
+    #presentation {
+      display: flex;
+      flex-direction: row;
+      .blocxp {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 340px;
+        width: 650px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        margin-right: 50px;
+      }
+      .blocsatisfaction {
+        height: 340px;
+        width: 650px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        margin-right: 50px;
+      }
+      .blocconfiance {
+        height: 340px;
+        width: 650px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        margin-right: 50px;
+      }
+      .blocsecurite {
+        height: 340px;
+        width: 650px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+      }
+    }
+
+    #footer {
+      background-color: $colorfooter;
+      height: 100px;
+      width: auto;
+
+      .icones {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+
+        i {
+          padding: 15px;
+        }
+      }
+
+      .rgpd {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+        h1 {
+          color: white;
+          font-size: 15px;
+          font-family: "Fira Sans Condensed";
+          font-style: italic;
+          margin-left: 50px;
+
+          a {
+            color: white;
+            font-family: "Fira Sans Condensed";
+            font-style: italic;
+            margin-right: 80px;
+          }
+        }
+      }
+    }
   }
 }
 
-@media screen and (min-width: 800px) {
-}
+@media screen and (min-width: 1200px) {
+  #container {
+    .annonces {
+      width: 370px;
+      .blocannonce1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        .article1 {
+          margin-right: 100px;
+        }
 
-@media screen and (min-width: 1000px) {
+        .article2 {
+          background-color: $colorbloc;
+          margin-bottom: 10px;
+          margin-top: 20px;
+        }
+      }
+
+      .blocannonce2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 20px;
+        .article3 {
+          margin-right: 100px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  #container {
+    .slider {
+      height: 500px;
+      width: 800px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin: auto;
+    }
+    .detailsarticle {
+      margin-top: 130px;
+      .bloc1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 800px;
+        text-align: center;
+      }
+      .bloc2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 800px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .bloc3 {
+        text-align: center;
+        margin: auto;
+        width: 800px;
+        margin-top: 20px;
+        h1 {
+          margin-left: 64px;
+        }
+        .blocarticle001 {
+          display: flex;
+          justify-content: center;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  #container {
+    .containerdetails {
+      align-content: center;
+      .blocdetails1 {
+        .bloc1 {
+          text-align: center;
+          margin: auto;
+          width: 800px;
+          .blocdetails1 {
+            display: flex;
+            justify-content: center;
+          }
+        }
+        .bloc2 {
+          text-align: center;
+          margin: auto;
+          width: 800px;
+          margin-top: 20px;
+        }
+        .bloc3 {
+          text-align: center;
+          margin: auto;
+          width: 800px;
+          margin-top: 20px;
+        }
+      }
+      .bloc4 {
+        text-align: center;
+        margin: auto;
+        width: 800px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #container {
+    .containercontact {
+      width: 600px;
+      #form {
+        .nomprenom {
+          input {
+            width: 400px;
+          }
+        }
+        .tel {
+          input {
+            width: 400px;
+          }
+        }
+        .mail {
+          input {
+            width: 400px;
+          }
+        }
+        .age {
+          input {
+            width: 400px;
+          }
+        }
+        .calendrier {
+          input {
+            width: 400px;
+          }
+        }
+        .message {
+          textarea {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
 /* ==========================media querie========================== */

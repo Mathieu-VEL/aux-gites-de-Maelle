@@ -307,6 +307,56 @@ ul {
   margin-top: 10px;
   text-align: center;
 }
+#container .annonces .article3 {
+  background-color: #ced4da;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#container .annonces .article3 .imgarticle2 {
+  height: 130px;
+  width: 370px;
+  overflow: hidden;
+}
+#container .annonces .article3 .imgarticle2 .imgmaison2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#container .annonces .article3 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
+#container .annonces .article4 {
+  background-color: #ced4da;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#container .annonces .article4 .imgarticle2 {
+  height: 130px;
+  width: 370px;
+  overflow: hidden;
+}
+#container .annonces .article4 .imgarticle2 .imgmaison2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#container .annonces .article4 h1 {
+  font-family: "fira_sans_condensedregular";
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
 #container .slider {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -685,8 +735,88 @@ ul {
   }
 }
 @media screen and (min-width: 600px) {
+  html {
+    background-color: #f8f8f8;
+  }
   #container {
     max-width: 600px;
+    width: 100%;
+  }
+  #container #nav {
+    margin: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+  #container #nav .blocburger-logo {
+    margin-bottom: 25px;
+  }
+  #container #nav .blocburger-logo #burger {
+    display: none;
+  }
+  #container #nav .blocburger-logo .listnoburger {
+    display: flex;
+  }
+  #container #nav .blocburger-logo .listnoburger ul {
+    display: flex;
+    flex-direction: row;
+  }
+  #container #nav .blocburger-logo .listnoburger ul li {
+    align-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Fira Sans Condensed";
+    font-size: 25px;
+  }
+  #container #nav .blocburger-logo .listnoburger ul li a {
+    color: black;
+    height: 100px;
+    width: auto;
+  }
+  #container #nav .list {
+    display: none;
+    flex-direction: row;
+  }
+  #container .blocimgpresentation {
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  #container .blocimgpresentation .imgsatis {
+    height: 337px;
+    border-radius: 10px;
+  }
+  #container #presentation .blocxp {
+    border-radius: 10px;
+  }
+  #container #presentation .blocsatisfaction {
+    border-radius: 10px;
+  }
+  #container #presentation .blocconfiance {
+    border-radius: 10px;
+  }
+  #container #presentation .blocsecurite {
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  #container .blocrgpd .textmention2 {
+    text-align: center;
+  }
+  #container .blocrgpd .textmention4 {
+    text-align: center;
+  }
+  #container .blocrgpd .textmention6 {
+    text-align: center;
+  }
+  #container .blocrgpd .textmention8 {
+    text-align: center;
+  }
+  #container .blocrgpd .textmention10 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container {
+    max-width: 1200px;
     width: 100%;
   }
   #container #nav .blocburger-logo #burger {
@@ -714,6 +844,218 @@ ul {
   #container #nav .list {
     display: none;
     flex-direction: row;
+  }
+  #container .blocimgpresentation {
+    border-radius: 10px;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #container .blocimgpresentation .imgsatis {
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+  }
+  #container #presentation {
+    display: flex;
+    flex-direction: row;
+  }
+  #container #presentation .blocxp {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 340px;
+    width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  #container #presentation .blocsatisfaction {
+    height: 340px;
+    width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  #container #presentation .blocconfiance {
+    height: 340px;
+    width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  #container #presentation .blocsecurite {
+    height: 340px;
+    width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  #container #footer {
+    background-color: #212529;
+    height: 100px;
+    width: auto;
+  }
+  #container #footer .icones {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  #container #footer .icones i {
+    padding: 15px;
+  }
+  #container #footer .rgpd {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  #container #footer .rgpd h1 {
+    color: white;
+    font-size: 15px;
+    font-family: "Fira Sans Condensed";
+    font-style: italic;
+    margin-left: 50px;
+  }
+  #container #footer .rgpd h1 a {
+    color: white;
+    font-family: "Fira Sans Condensed";
+    font-style: italic;
+    margin-right: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container .annonces {
+    width: 370px;
+  }
+  #container .annonces .blocannonce1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+  #container .annonces .blocannonce1 .article1 {
+    margin-right: 100px;
+  }
+  #container .annonces .blocannonce1 .article2 {
+    background-color: #ced4da;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  #container .annonces .blocannonce2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #container .annonces .blocannonce2 .article3 {
+    margin-right: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container .slider {
+    height: 500px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  #container .detailsarticle {
+    margin-top: 130px;
+  }
+  #container .detailsarticle .bloc1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+  }
+  #container .detailsarticle .bloc2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #container .detailsarticle .bloc3 {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+  }
+  #container .detailsarticle .bloc3 h1 {
+    margin-left: 64px;
+  }
+  #container .detailsarticle .bloc3 .blocarticle001 {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container .containerdetails {
+    align-content: center;
+  }
+  #container .containerdetails .blocdetails1 .bloc1 {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+  }
+  #container .containerdetails .blocdetails1 .bloc1 .blocdetails1 {
+    display: flex;
+    justify-content: center;
+  }
+  #container .containerdetails .blocdetails1 .bloc2 {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+  }
+  #container .containerdetails .blocdetails1 .bloc3 {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+  }
+  #container .containerdetails .bloc4 {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container .containercontact {
+    width: 600px;
+  }
+  #container .containercontact #form .nomprenom input {
+    width: 400px;
+  }
+  #container .containercontact #form .tel input {
+    width: 400px;
+  }
+  #container .containercontact #form .mail input {
+    width: 400px;
+  }
+  #container .containercontact #form .age input {
+    width: 400px;
+  }
+  #container .containercontact #form .calendrier input {
+    width: 400px;
+  }
+  #container .containercontact #form .message textarea {
+    width: 400px;
   }
 }
 /* ==========================media querie========================== */
