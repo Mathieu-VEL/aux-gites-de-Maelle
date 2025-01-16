@@ -798,6 +798,9 @@ ul {
   }
 }
 @media screen and (min-width: 600px) {
+  #container .blocrgpd {
+    margin-bottom: 50px;
+  }
   #container .blocrgpd .textmention2 {
     text-align: center;
   }
